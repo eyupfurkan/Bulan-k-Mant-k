@@ -1,0 +1,337 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.13)  21 FEB 2018 21:39
+entering extended mode
+**./1diskapak.tex
+(1diskapak.tex
+LaTeX2e <2017-04-15>
+Babel <3.15> and hyphenation patterns for 75 language(s) loaded.
+
+! LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \begin{figure}
+                  [H]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \begin{figure}[
+                   H]
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no ] in font nullfont!
+! Undefined control sequence.
+l.4 \includegraphics
+                    [scale=0.2]{logomuz}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no z in font nullfont!
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 \end{figure}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 2--8
+[]
+ []
+
+
+Overfull \hbox (22.69432pt too wide) in paragraph at lines 9--9
+ \OT1/cmr/bx/n/10 T.C. 
+ []
+
+Missing character: There is no Ý in font cmbx10!
+Missing character: There is no Ý in font cmbx10!
+Missing character: There is no Þ in font cmbx10!
+Missing character: There is no Ý in font cmbx10!
+Missing character: There is no Ü in font cmbx10!
+Missing character: There is no Ý in font cmbx10!
+Missing character: There is no Ý in font cmbx10!
+Missing character: There is no Ý in font cmbx10!
+
+Overfull \hbox (39.972pt too wide) in paragraph at lines 10--10
+ []\OT1/cmr/bx/n/10 BLECK 
+ []
+
+
+Overfull \hbox (25.24986pt too wide) in paragraph at lines 10--10
+ \OT1/cmr/bx/n/10 EYH 
+ []
+
+
+Overfull \hbox (27.76373pt too wide) in paragraph at lines 10--10
+ \OT1/cmr/bx/n/10 EDE- 
+ []
+
+
+Overfull \hbox (23.79153pt too wide) in paragraph at lines 10--10
+ \OT1/cmr/bx/n/10 BAL 
+ []
+
+
+Overfull \hbox (37.70813pt too wide) in paragraph at lines 10--10
+ \OT1/cmr/bx/n/10 NVER- 
+ []
+
+
+Overfull \hbox (28.33318pt too wide) in paragraph at lines 10--10
+ \OT1/cmr/bx/n/10 STES 
+ []
+
+Missing character: There is no Ü in font cmbx10!
+Missing character: There is no Ý in font cmbx10!
+Missing character: There is no Ý in font cmbx10!
+Missing character: There is no Ü in font cmbx10!
+Missing character: There is no Ý in font cmbx10!
+
+Overfull \hbox (67.61075pt too wide) in paragraph at lines 11--12
+ []\OT1/cmr/bx/n/10 MHENDSLK 
+ []
+
+
+Overfull \hbox (51.56915pt too wide) in paragraph at lines 11--12
+ \OT1/cmr/bx/n/10 FAKLTES 
+ []
+
+Missing character: There is no Ý in font cmbx10!
+Missing character: There is no Ý in font cmbx10!
+Missing character: There is no Ü in font cmbx10!
+Missing character: There is no Ý in font cmbx10!
+Missing character: There is no Ý in font cmbx10!
+Missing character: There is no Ð in font cmbx10!
+Missing character: There is no Ý in font cmbx10!
+Missing character: There is no Ö in font cmbx10!
+Missing character: There is no Ü in font cmbx10!
+Missing character: There is no Ü in font cmbx10!
+
+Overfull \hbox (63.31909pt too wide) in paragraph at lines 13--14
+ []\OT1/cmr/bx/n/10 BLGSAYAR 
+ []
+
+
+Overfull \hbox (58.59691pt too wide) in paragraph at lines 13--14
+ \OT1/cmr/bx/n/10 MHENDSL 
+ []
+
+
+Overfull \hbox (26.01375pt too wide) in paragraph at lines 13--14
+ \OT1/cmr/bx/n/10 BLM 
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 17--17
+[] 
+ []
+
+Missing character: There is no ö in font cmbx10!
+Missing character: There is no ü in font cmbx10!
+Missing character: There is no ç in font cmbx10!
+Missing character: There is no ð in font cmbx10!
+
+Overfull \hbox (26.0693pt too wide) in paragraph at lines 18--19
+ \OT1/cmr/bx/n/10 RJ45 
+ []
+
+
+Overfull \hbox (24.98598pt too wide) in paragraph at lines 18--19
+ \OT1/cmr/bx/n/10 Kon- 
+ []
+
+
+Overfull \hbox (26.93738pt too wide) in paragraph at lines 18--19
+ \OT1/cmr/bx/n/10 nektr 
+ []
+
+
+Overfull \hbox (11.65967pt too wide) in paragraph at lines 18--19
+ \OT1/cmr/bx/n/10 ile 
+ []
+
+
+Overfull \hbox (11.49994pt too wide) in paragraph at lines 18--19
+ \OT1/cmr/bx/n/10 dz 
+ []
+
+
+Overfull \hbox (11.02078pt too wide) in paragraph at lines 18--19
+ \OT1/cmr/bx/n/10 ve 
+ []
+
+
+Overfull \hbox (27.41649pt too wide) in paragraph at lines 18--19
+ \OT1/cmr/bx/n/10 apraz 
+ []
+
+
+Overfull \hbox (35.93724pt too wide) in paragraph at lines 18--19
+ \OT1/cmr/bx/n/10 balama 
+ []
+
+Missing character: There is no ü in font cmbx10!
+
+Overfull \hbox (20.01378pt too wide) in paragraph at lines 20--21
+ []\OT1/cmr/bx/n/10 Eyp 
+ []
+
+
+Overfull \hbox (34.8123pt too wide) in paragraph at lines 20--21
+ \OT1/cmr/bx/n/10 Furkan 
+ []
+
+
+Overfull \hbox (48.38863pt too wide) in paragraph at lines 20--21
+ \OT1/cmr/bx/n/10 ARIKAN 
+ []
+
+Missing character: There is no ð in font cmbx10!
+Missing character: There is no ý in font cmbx10!
+
+Overfull \hbox (49.39691pt too wide) in paragraph at lines 22--23
+ []\OT1/cmr/bx/n/10 Bilgisayar 
+ []
+
+
+Overfull \hbox (22.21515pt too wide) in paragraph at lines 22--23
+ \OT1/cmr/bx/n/10 Alar 
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 26--26
+[] 
+ []
+
+Missing character: There is no ð in font cmbx10!
+Missing character: There is no ý in font cmbx10!
+Missing character: There is no Þ in font cmbx10!
+Missing character: There is no ü in font cmbx10!
+
+Overfull \hbox (49.39691pt too wide) in paragraph at lines 27--28
+ \OT1/cmr/bx/n/10 Bilgisayar 
+ []
+
+
+Overfull \hbox (22.21515pt too wide) in paragraph at lines 27--28
+ \OT1/cmr/bx/n/10 Alar 
+ []
+
+
+Overfull \hbox (30.02762pt too wide) in paragraph at lines 27--28
+ \OT1/cmr/bx/n/10 DAN- 
+ []
+
+
+Overfull \hbox (8.1944pt too wide) in paragraph at lines 27--28
+ \OT1/cmr/bx/n/10 I- 
+ []
+
+
+Overfull \hbox (32.97205pt too wide) in paragraph at lines 27--28
+ \OT1/cmr/bx/n/10 MANI 
+ []
+
+
+Overfull \hbox (3.19443pt too wide) in paragraph at lines 27--28
+ \OT1/cmr/bx/n/10 : 
+ []
+
+
+Overfull \hbox (17.79156pt too wide) in paragraph at lines 27--28
+ \OT1/cmr/bx/n/10 Uz- 
+ []
+
+
+Overfull \hbox (21.56236pt too wide) in paragraph at lines 27--28
+ \OT1/cmr/bx/n/10 man 
+ []
+
+
+Overfull \hbox (24.75682pt too wide) in paragraph at lines 27--28
+ \OT1/cmr/bx/n/10 Sley- 
+ []
+
+
+Overfull \hbox (21.56236pt too wide) in paragraph at lines 27--28
+ \OT1/cmr/bx/n/10 man 
+ []
+
+
+Overfull \hbox (33.72203pt too wide) in paragraph at lines 27--28
+ \OT1/cmr/bx/n/10 UZUN 
+ []
+
+Missing character: There is no Ý in font cmbx10!
+Missing character: There is no Ý in font cmbx10!
+
+Overfull \hbox (39.972pt too wide) in paragraph at lines 29--29
+ []\OT1/cmr/bx/n/10 BLECK 
+ []
+
+! Undefined control sequence.
+<recently read> \today 
+                       
+l.30 \textbf{\today}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+)
+! Emergency stop.
+<*> ./1diskapak.tex
+                   
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 12 strings out of 493312
+ 511 string characters out of 3138873
+ 55761 words of memory out of 3000000
+ 3659 multiletter control sequences out of 15000+200000
+ 3948 words of font info for 15 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 13i,1n,10p,100b,110s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!

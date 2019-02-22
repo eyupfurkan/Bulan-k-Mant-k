@@ -1,0 +1,20 @@
+plot (CB,MuECB,'k')
+...
+
+waf=0.3
+sonucuUFaf=min(waf,MuDB)
+hold on
+plot(B,sonucUFaf,'r-')
+plot(B,sonucUFaf,'r-')
+hold of
+plot(B,sonucUFaf,'r-')
+hold off
+plot(B,sonucUFaf,'r-')
+sonucUFaf=min(waf*(ones(size(MuDB))),MuDB);
+plot(B,sonucUFaf,'r-')
+plot(sonucUFaf,'r-')
+MuDB=trimf(-5:0.5:5,[-4 0 5]);
+sonucUFaf=min(waf*(ones(size(MuDB))),MuDB);
+plot(MuDB)
+clc
+hold on, plot(sonucUFaf,'r')

@@ -1,0 +1,117 @@
+\section{Materyal ve Metodlar}
+
+\textbf{Kartezyen Çarpým (Cartesion Product) ve Üç Boyutlu ÜF}
+
+  \texttt{clc;} komutu komut penceresini temizler. \texttt{clc;} komut penceresinden tüm metni temizler ve net bir ekran oluþturur. \texttt{clc;}'yi çalýþtýrdýktan sonra, daha önce görüntülenen metni görmek için komut penceresindeki kaydýrma çubuðu kullanýlamaz. Bununla birlikte, komut geçmiþindeki ifadeleri geri çaðýrmak için komut penceresindeki yukarý ok tuþlarýný kullanabiliriz.
+  
+  \texttt{clr;} veya \texttt{clear all;} komutu aynýdýr. Sadece yazýmlarý biraz farklýdýr. \texttt{clear all;} çalýþma alanýnýzý ve komut pencerenizi temizler, böylece yeniden baþlayabiliriz. Bu, tüm rakamlarý kapatýr.
+
+\texttt{clr;} matlabý "sýfýrlamak" için hýzlý bir yoldur. Konsol ekranýnda yazýlan veya hafýzada kayýtlý kodlarý ve bilgileri temizler.
+
+\texttt{x=[0,1,2,3,4,5];} komutuyla x dizisini elemanlarýyla tanýmladým.
+
+\texttt{muAx=[0,0,1,0.5,0,0];} komutuyla muA(x) için muAx dizisini elemanlarýyla tanýmladým.
+
+\texttt{a=10;b=11;c=12;d=13;e=14;f=15;}
+
+\texttt{y=[a,b,c,d,e,f];} komutlarýyla önce a,b,c,d,e ve f deðiþkenlerine deðerler atadým. Bunu y dizisini elemanlarýyla oluþtururken kullandým.
+
+\texttt{muBy=[0,0,0,0.5,1,1];} komutuyla muB(y) için muBy dizisini elemanlarýyla tanýmladým.
+
+\texttt{for ii=1:6}
+
+    \texttt{for jj=1:6}
+    
+        \texttt{KARcrpm(ii,jj)=min(muAx(ii),muBy(jj));}
+        
+    \texttt{end}
+    
+\texttt{end}
+
+Yukarýdaki komutlarla \texttt{ii} deðiþkenini 1'den 6'ya kadar birer birer ve \texttt{jj} deðiþkenini 1'den 6'ya kadar birer birer artýrdým ve daha önceden tanýmlamadýðým kartezyen çarpým anlamýndaki KARcrpm iki boyutlu dizisine muA(x) ve muB(y) dizilerinin minimumunu (en azýný) aktardým.
+
+
+\texttt{for ii=1:6}
+
+    \texttt{for jj=1:6}
+    
+        \texttt{fprintf('KARcrpm[\%i,\%i] => \%i\\(slaþ)n',ii,jj,KARcrpm(ii,jj));}
+        
+    \texttt{end}
+    
+    \texttt{fprintf('\\(slaþ)n');}
+    
+\texttt{end}
+
+Yukarýdaki komutlarla \texttt{ii} deðiþkenini 1'den 6'ya kadar birer birer ve \texttt{jj} deðiþkenini 1'den 6'ya kadar birer birer artýrdým ve daha önceden tanýmlamadýðým ve minimum (en az) ÜF deðerlerini aldýðým kartezyen çarpým anlamýndaki KARcrpm iki boyutlu dizisinin elemanlarýný alt alta olacak þekilde ve dizinin bir diðer satýrýna geçerken bir alt satýra daha geçecek þekilde konsol ekranýna yazdýrdým.
+
+\texttt{mesh(KARcrpm)} komutuyla þeklin üzerinde bir að varmýþ gibi KARcrpm dizisini çizdirdim.
+
+\texttt{xlabel('y');}
+
+\texttt{ylabel('x');}
+
+\texttt{zlabel('Kartezyen Çarpým');}
+
+ Yukarýdaki komutlarla x,y ve z eksenlerini gösterdim. x ve y ekseni ters çýktýðý için onlarý ters gösterdim.
+
+\texttt{title('Kartezyen Çarpým Sonucu - 3 Boyutlu ÜF');} 
+komutuyla þeklin etiketini yazdýrdým.
+
+\textbf{Kartezyen Yardýmcý Çarpým (Cartesion Co-product) Toplam ve Üç Boyutlu ÜF}
+
+\texttt{clc;} komutu komut penceresini temizler. \texttt{clc;} komut penceresinden tüm metni temizler ve net bir ekran oluþturur. \texttt{clc;}'yi çalýþtýrdýktan sonra, daha önce görüntülenen metni görmek için komut penceresindeki kaydýrma çubuðu kullanýlamaz. Bununla birlikte, komut geçmiþindeki ifadeleri geri çaðýrmak için komut penceresindeki yukarý ok tuþlarýný kullanabiliriz.
+  
+  \texttt{clr;} veya \texttt{clear all;} komutu aynýdýr. Sadece yazýmlarý biraz farklýdýr. \texttt{clear all;} çalýþma alanýnýzý ve komut pencerenizi temizler, böylece yeniden baþlayabiliriz. Bu, tüm rakamlarý kapatýr.
+
+\texttt{clr;} matlabý "sýfýrlamak" için hýzlý bir yoldur. Konsol ekranýnda yazýlan veya hafýzada kayýtlý kodlarý ve bilgileri temizler.
+
+\texttt{x=[0,1,2,3,4,5];} komutuyla x dizisini elemanlarýyla tanýmladým.
+
+\texttt{muAx=[0,0,1,0.5,0,0];} komutuyla muA(x) için muAx dizisini elemanlarýyla tanýmladým.
+
+\texttt{a=10;b=11;c=12;d=13;e=14;f=15;}
+
+\texttt{y=[a,b,c,d,e,f];} komutlarýyla önce a,b,c,d,e ve f deðiþkenlerine deðerler atadým. Bunu y dizisini elemanlarýyla oluþtururken kullandým.
+
+\texttt{muBy=[0,0,0,0.5,1,1];} komutuyla muB(y) için muBy dizisini elemanlarýyla tanýmladým.
+
+\texttt{for ii=1:6}
+
+    \texttt{for jj=1:6}
+    
+        \texttt{KARycrpm(ii,jj)=max(muAx(ii),muBy(jj));}
+        
+    \texttt{end}
+    
+\texttt{end}
+
+Yukarýdaki komutlarla \texttt{ii} deðiþkenini 1'den 6'ya kadar birer birer ve \texttt{jj} deðiþkenini 1'den 6'ya kadar birer birer artýrdým ve daha önceden tanýmlamadýðým kartezyen yardýmcý çarpým anlamýndaki KARycrpm iki boyutlu dizisine muA(x) ve muB(y) dizilerinin maximumunu (en fazlasýný) aktardým.
+
+
+\texttt{for ii=1:6}
+
+    \texttt{for jj=1:6}
+    
+        \texttt{fprintf('KARycrpm[\%i,\%i] => \%i\\(slaþ)n',ii,jj,KARycrpm(ii,jj));}
+        
+    \texttt{end}
+    
+    \texttt{fprintf('\\(slaþ)n');}
+    
+\texttt{end}
+
+Yukarýdaki komutlarla \texttt{ii} deðiþkenini 1'den 6'ya kadar birer birer ve \texttt{jj} deðiþkenini 1'den 6'ya kadar birer birer artýrdým ve daha önceden tanýmlamadýðým ve maximum (en fazla) ÜF deðerlerini aldýðým kartezyen yardýmcý çarpým anlamýndaki KARycrpm iki boyutlu dizisinin elemanlarýný alt alta olacak þekilde ve dizinin bir diðer satýrýna geçerken bir alt satýra daha geçecek þekilde konsol ekranýna yazdýrdým.
+
+\texttt{mesh(KARcrpm)} komutuyla þeklin üzerinde bir að varmýþ gibi KARycrpm dizisini çizdirdim.
+
+\texttt{xlabel('y');}
+
+\texttt{ylabel('x');}
+
+\texttt{zlabel('Kartezyen Yardýmcý Çarpým');}
+
+ Yukarýdaki komutlarla x,y ve z eksenlerini gösterdim. x ve y ekseni ters çýktýðý için onlarý ters gösterdim.
+
+\texttt{title('Kartezyen Yardýmcý Çarpým Sonucu - 3 Boyutlu ÜF');} 
+komutuyla þeklin etiketini yazdýrdým.

@@ -1,0 +1,75 @@
+x = 0:0.1:10;
+muAx = furkanmf(x,[3 7]);
+figure(2);
+plot(x,muAx)
+xlabel('furkanmf, P = [3 7]')
+ylim([-0.05 1.05])
+title('Z Biçimli Sigmoidal ÜF');
+
+y = 0:0.1:10;
+muBy = eyupmf(x,[2 4 6]);
+figure(1);
+plot(y,muBy)
+xlabel('eyupmf, P=[2 4 6]')
+ylim([-0.05 1.05])
+title('Çan (Genelleþtirilmiþ Gauss) ÜF');
+
+for ii=1:10
+    for jj=1:10
+        Tnorm_Cebirsel_Carpim(ii,jj)=muAx(ii).*muBy(jj);
+    end
+end
+
+for ii=1:10
+    for jj=1:10
+        Snorm_Cebirsel_Toplam(ii,jj)=muAx(ii)+muBy(jj)-muAx(ii).*muBy(jj);
+    end
+end
+
+figure(3);
+[X,Y]=meshgrid(muAx,muBy);
+Z=X.*Y;
+mesh(X,Y,Z);
+xlabel('muAx');
+ylabel('muBy');
+zlabel('T-norm Cebirsel Çarpým');
+title('muAx - muBy - T-norm Cebirsel Çarpým');
+
+figure(4);
+mesh(x,y,Z);
+xlabel('X');
+ylabel('Y');
+zlabel('T-norm Cebirsel Çarpým');
+title('X - Y - T-norm Cebirsel Çarpým (Z)');
+
+figure(5);
+mesh(Tnorm_Cebirsel_Carpim);
+xlabel('X');
+ylabel('Y');
+zlabel('T-norm Cebirsel Çarpým');
+title('X - Y - T-norm Cebirsel Çarpým (orjinal)');
+
+figure(6);
+[X,Y]=meshgrid(muAx,muBy);
+Z=X+Y-X.*Y;
+mesh(X,Y,Z);
+xlabel('muAx');
+ylabel('muBy');
+zlabel('S-norm Cebirsel Toplam');
+title('muAx - muBy - T-norm Cebirsel Çarpým');
+
+figure(7);
+mesh(x,y,Z);
+xlabel('X');
+ylabel('Y');
+zlabel('S-norm Cebirsel Toplam');
+title('X - Y - S-norm Cebirsel Toplam (Z)');
+
+figure(8);
+mesh(Snorm_Cebirsel_Toplam);
+xlabel('X');
+ylabel('Y');
+zlabel('S-norm Cebirsel Toplam');
+title('X - Y - S-norm Cebirsel Toplam (orjinal)');
+
+
